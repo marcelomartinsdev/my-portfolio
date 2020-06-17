@@ -1,0 +1,303 @@
+import React, {Component} from 'react';
+import { Tab, Tabs, Grid, Cell, Card, CardTitle, CardActions, Button, CardMenu, IconButton, CardText } from 'react-mdl';
+
+class Projects extends Component {
+    constructor (props) {
+        super(props);
+        this.state= { activeTab: 0 };
+}
+
+toggleCategories() {
+
+if (this.state.activeTab === 0) {
+    return (
+        <div className="projects-grid">
+          {/* Project 1 */}
+          <Card shadow={5} style={{minWidth: '450', margin: '50px'}}>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://uploaddeimagens.com.br/images/002/712/551/full/Javascript-programming-language.jpg?1592412828) center / cover' }} >JavaScript Project #1</CardTitle>
+            <CardText>
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+            </CardText>
+            <CardActions border>
+              <Button colored>GitHub</Button>
+              <Button colored>CodePen</Button>
+              <Button colored>Live Demo</Button>
+            </CardActions>
+            <CardMenu style={{color: '#fff'}}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+
+          {/* Project 2 */}
+          <Card shadow={5} style={{minWidth: '450', margin: '50px'}}>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://uploaddeimagens.com.br/images/002/712/551/full/Javascript-programming-language.jpg?1592412828) center / cover'}} >JavaScript Project #2</CardTitle>
+            <CardText>
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+            </CardText>
+            <CardActions border>
+              <Button colored>GitHub</Button>
+              <Button colored>CodePen</Button>
+              <Button colored>Live Demo</Button>
+            </CardActions>
+            <CardMenu style={{color: '#fff'}}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+
+          {/* Project 3 */}
+          <Card shadow={5} style={{minWidth: '450', margin: '50px'}}>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://uploaddeimagens.com.br/images/002/712/551/full/Javascript-programming-language.jpg?1592412828) center / cover'}} >JavaScript Project #3</CardTitle>
+            <CardText>
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+            </CardText>
+            <CardActions border>
+              <Button colored>GitHub</Button>
+              <Button colored>CodePen</Button>
+              <Button colored>Live Demo</Button>
+            </CardActions>
+            <CardMenu style={{color: '#fff'}}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+        </div>
+    );
+} else if (this.state.activeTab === 1) {
+    return (
+        <div className="projects-grid">
+          {/* Project 1 */}
+          <Card shadow={5} style={{minWidth: '450', margin: '50px'}}>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://uploaddeimagens.com.br/images/002/712/562/full/React-Hooks.png?1592413119) center / cover' }} >React Project #1</CardTitle>
+            <CardText>
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+            </CardText>
+            <CardActions border>
+              <Button colored>GitHub</Button>
+              <Button colored>CodePen</Button>
+              <Button colored>Live Demo</Button>
+            </CardActions>
+            <CardMenu style={{color: '#fff'}}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+
+          {/* Project 2 */}
+          <Card shadow={5} style={{minWidth: '450', margin: '50px'}}>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://uploaddeimagens.com.br/images/002/712/562/full/React-Hooks.png?1592413119) center / cover'}} >React Project #2</CardTitle>
+            <CardText>
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+            </CardText>
+            <CardActions border>
+              <Button colored>GitHub</Button>
+              <Button colored>CodePen</Button>
+              <Button colored>Live Demo</Button>
+            </CardActions>
+            <CardMenu style={{color: '#fff'}}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+
+          {/* Project 3 */}
+          <Card shadow={5} style={{minWidth: '450', margin: '50px'}}>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://uploaddeimagens.com.br/images/002/712/562/full/React-Hooks.png?1592413119) center / cover'}} >React Project #3</CardTitle>
+            <CardText>
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+            </CardText>
+            <CardActions border>
+              <Button colored>GitHub</Button>
+              <Button colored>CodePen</Button>
+              <Button colored>Live Demo</Button>
+            </CardActions>
+            <CardMenu style={{color: '#fff'}}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+        </div>
+    ); 
+} else if (this.state.activeTab === 2) {
+    return (
+        <div className="projects-grid">
+        {/* Project 1 */}
+        <Card shadow={5} style={{minWidth: '450', margin: '50px'}}>
+          <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://uploaddeimagens.com.br/images/002/712/678/full/reactnode.png?1592415940) center / cover' }} >React + NodeJS Project #1</CardTitle>
+          <CardText>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+          </CardText>
+          <CardActions border>
+            <Button colored>GitHub</Button>
+            <Button colored>CodePen</Button>
+            <Button colored>Live Demo</Button>
+          </CardActions>
+          <CardMenu style={{color: '#fff'}}>
+            <IconButton name="share" />
+          </CardMenu>
+        </Card>
+
+        {/* Project 2 */}
+        <Card shadow={5} style={{minWidth: '450', margin: '50px'}}>
+          <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://uploaddeimagens.com.br/images/002/712/678/full/reactnode.png?1592415940) center / cover'}} >React + NodeJS Project #2</CardTitle>
+          <CardText>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+          </CardText>
+          <CardActions border>
+            <Button colored>GitHub</Button>
+            <Button colored>CodePen</Button>
+            <Button colored>Live Demo</Button>
+          </CardActions>
+          <CardMenu style={{color: '#fff'}}>
+            <IconButton name="share" />
+          </CardMenu>
+        </Card>
+
+        {/* Project 3 */}
+        <Card shadow={5} style={{minWidth: '450', margin: '50px'}}>
+          <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://uploaddeimagens.com.br/images/002/712/678/full/reactnode.png?1592415940) center / cover'}} >React + NodeJS Project #3</CardTitle>
+          <CardText>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+          </CardText>
+          <CardActions border>
+            <Button colored>GitHub</Button>
+            <Button colored>CodePen</Button>
+            <Button colored>Live Demo</Button>
+          </CardActions>
+          <CardMenu style={{color: '#fff'}}>
+            <IconButton name="share" />
+          </CardMenu>
+        </Card>
+      </div>
+    );
+} else if (this.state.activeTab === 3) {
+    return (
+        <div className="projects-grid">
+        {/* Project 1 */}
+        <Card shadow={5} style={{minWidth: '450', margin: '50px'}}>
+          <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://uploaddeimagens.com.br/images/002/712/686/full/expressnodereact.png?1592416297) center / cover' }} >React + NodeJS + Express Project #1</CardTitle>
+          <CardText>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+          </CardText>
+          <CardActions border>
+            <Button colored>GitHub</Button>
+            <Button colored>CodePen</Button>
+            <Button colored>Live Demo</Button>
+          </CardActions>
+          <CardMenu style={{color: '#fff'}}>
+            <IconButton name="share" />
+          </CardMenu>
+        </Card>
+
+        {/* Project 2 */}
+        <Card shadow={5} style={{minWidth: '450', margin: '50px'}}>
+          <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://uploaddeimagens.com.br/images/002/712/686/full/expressnodereact.png?1592416297) center / cover'}} >React + NodeJS + Express Project #2</CardTitle>
+          <CardText>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+          </CardText>
+          <CardActions border>
+            <Button colored>GitHub</Button>
+            <Button colored>CodePen</Button>
+            <Button colored>Live Demo</Button>
+          </CardActions>
+          <CardMenu style={{color: '#fff'}}>
+            <IconButton name="share" />
+          </CardMenu>
+        </Card>
+
+        {/* Project 3 */}
+        <Card shadow={5} style={{minWidth: '450', margin: '50px'}}>
+          <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://uploaddeimagens.com.br/images/002/712/686/full/expressnodereact.png?1592416297) center / cover'}} >React + NodeJS + Express Project #3</CardTitle>
+          <CardText>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+          </CardText>
+          <CardActions border>
+            <Button colored>GitHub</Button>
+            <Button colored>CodePen</Button>
+            <Button colored>Live Demo</Button>
+          </CardActions>
+          <CardMenu style={{color: '#fff'}}>
+            <IconButton name="share" />
+          </CardMenu>
+        </Card>
+      </div>
+    );
+} else if (this.state.activeTab === 4) {
+    return (
+        <div className="projects-grid">
+        {/* Project 1 */}
+        <Card shadow={5} style={{minWidth: '450', margin: '50px'}}>
+          <CardTitle style={{color: '#000', height: '176px', background: 'url(https://uploaddeimagens.com.br/images/002/712/692/full/mern.png?1592416441) center / cover' }} >React + NodeJS + Express + MongoDB Project #1</CardTitle>
+          <CardText>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+          </CardText>
+          <CardActions border>
+            <Button colored>GitHub</Button>
+            <Button colored>CodePen</Button>
+            <Button colored>Live Demo</Button>
+          </CardActions>
+          <CardMenu style={{color: '#fff'}}>
+            <IconButton name="share" />
+          </CardMenu>
+        </Card>
+
+        {/* Project 2 */}
+        <Card shadow={5} style={{minWidth: '450', margin: '50px'}}>
+          <CardTitle style={{color: '#000', height: '176px', background: 'url(https://uploaddeimagens.com.br/images/002/712/692/full/mern.png?1592416441) center / cover'}} >React + NodeJS + Express + MongoDB Project #2</CardTitle>
+          <CardText>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+          </CardText>
+          <CardActions border>
+            <Button colored>GitHub</Button>
+            <Button colored>CodePen</Button>
+            <Button colored>Live Demo</Button>
+          </CardActions>
+          <CardMenu style={{color: '#fff'}}>
+            <IconButton name="share" />
+          </CardMenu>
+        </Card>
+
+        {/* Project 3 */}
+        <Card shadow={5} style={{minWidth: '450', margin: '50px'}}>
+          <CardTitle style={{color: '#000', height: '176px', background: 'url(https://uploaddeimagens.com.br/images/002/712/692/full/mern.png?1592416441) center / cover'}} >React + NodeJS + Express + MongoDB #3</CardTitle>
+          <CardText>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+          </CardText>
+          <CardActions border>
+            <Button colored>GitHub</Button>
+            <Button colored>CodePen</Button>
+            <Button colored>Live Demo</Button>
+          </CardActions>
+          <CardMenu style={{color: '#fff'}}>
+            <IconButton name="share" />
+          </CardMenu>
+        </Card>
+      </div>
+    );
+}
+
+}
+
+
+    
+
+render() {
+    return (
+        <div className="category-tabs">
+            <Tabs activeTab={this.state.activeTab} onChange={ (tabId) => this.setState({activeTab: tabId}) } ripple>
+                <Tab>HTML/CSS + JavaScript</Tab>
+                <Tab>ReactJS</Tab>
+                <Tab>ReactJS + NodeJS</Tab>
+                <Tab>React + NodeJS + Express</Tab>
+                <Tab>React + NodeJS + Express + MongoDB</Tab>
+            </Tabs>
+
+            <section className="projects-grid">
+                <Grid>
+                    <Cell col={12}>
+                        <div className="content">{this.toggleCategories()}</div>
+                    </Cell>
+                </Grid>
+            </section>
+        </div>
+    );
+}
+}
+
+
+export default Projects;

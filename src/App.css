@@ -1,38 +1,69 @@
-.App {
+body {
+  background: url("https://uploaddeimagens.com.br/images/002/711/899/full/sea-3652697_1920.jpg?1592397932") center / cover
+  ;
+}
+
+.landing-grid {
+  background: url("https://uploaddeimagens.com.br/images/002/711/899/full/sea-3652697_1920.jpg?1592397932") center / cover
+  ;
   text-align: center;
+  position: fixed;
+  top: 10;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.avatar-img {
+  height: 450px;
+  border-radius: 50px;
+  margin-top: 70px;
+  margin-bottom: 40px ;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.banner-text {
+  background-color: black;
+  opacity: .5;
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.banner-text h1 {
+  font-size: 50px;
+  font-weight: bold;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.banner-text hr {
+  border-top: 5px dotted white;
+  width: 50%;
+  margin: auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.banner-text p {
+  color: white;
+  font-size: 20px;
+  padding: 1 em;
 }
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+  margin: auto;
+}
+
+.social-links a {
+  color: white;
+  font-size: 30px;
+  padding: 10px;
+}
+
+.projects-grid {
+  display: flex;
+  position: fixed;
+  align-content: center;
+}
+
