@@ -1,10 +1,14 @@
 import React, {Component} from 'react';
 import { Grid, Cell } from 'react-mdl';
-
+import { motion } from 'framer-motion'
 class Landing extends Component {
     render() {
         return (
-            <div style={{width: '100%', margin: 'auto'}}>
+            <motion.div
+            initial={{opacity:0}}
+            animate={{opacity:1}}
+            exit={{opacity:0}}
+            style={{width: '100%', margin: 'auto'}}>
                 <Grid className="landing-grid">
                     <Cell col={12}>
                         <img src="https://uploaddeimagens.com.br/images/002/712/134/full/foto_perfil.jpg?1592401900"
@@ -47,7 +51,7 @@ class Landing extends Component {
                     </div> 
                     </Cell> 
                 </Grid>
-            </div>
+            </motion.div>
         );
     }
 }

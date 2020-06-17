@@ -1,9 +1,15 @@
 import React, {Component} from 'react';
-
+import { motion } from 'framer-motion';
 class About extends Component {
     render() {
         return (
-            <div><h1>About Page</h1></div>
+            <motion.div
+            initial={{opacity:0}}
+            animate={{opacity:1}}
+            exit={{opacity:0}}
+            >
+                <h1>About Page</h1>
+            </motion.div>
         );
     }
 }

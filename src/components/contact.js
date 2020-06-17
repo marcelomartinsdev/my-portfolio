@@ -1,10 +1,17 @@
 import React, {Component} from 'react';
+import { motion } from 'framer-motion';
 
 class Contact extends Component {
     render() {
         return (
             
-            <div><h1>Contact Page</h1></div>
+            <motion.div
+            initial={{opacity:0}}
+            animate={{opacity:1}}
+            exit={{opacity:0}}
+            >
+                <h1>Contact Page</h1>
+            </motion.div>
         );
     }
 }

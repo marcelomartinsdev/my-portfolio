@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import { Tab, Tabs, Grid, Cell, Card, CardTitle, CardActions, Button, CardMenu, IconButton, CardText } from 'react-mdl';
-
+import { motion } from 'framer-motion';
 class Projects extends Component {
     constructor (props) {
         super(props);
@@ -11,7 +11,11 @@ toggleCategories() {
 
 if (this.state.activeTab === 0) {
     return (
-        <div className="projects-grid">
+        <motion.div
+        initial={{opacity:0}}
+        animate={{opacity:1}}
+        exit={{opacity:0}}
+        className="projects-grid">
           {/* Project 1 */}
           <Card shadow={5} style={{minWidth: '450', margin: '50px'}}>
             <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://uploaddeimagens.com.br/images/002/712/551/full/Javascript-programming-language.jpg?1592412828) center / cover' }} >JavaScript Project #1</CardTitle>
@@ -59,11 +63,14 @@ if (this.state.activeTab === 0) {
               <IconButton name="share" />
             </CardMenu>
           </Card>
-        </div>
+        </motion.div>
     );
 } else if (this.state.activeTab === 1) {
     return (
-        <div className="projects-grid">
+        <motion.div
+        initial={{opacity:0}}
+        animate={{opacity:1}}
+        exit={{opacity:0}} className="projects-grid">
           {/* Project 1 */}
           <Card shadow={5} style={{minWidth: '450', margin: '50px'}}>
             <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://uploaddeimagens.com.br/images/002/712/562/full/React-Hooks.png?1592413119) center / cover' }} >React Project #1</CardTitle>
@@ -111,11 +118,14 @@ if (this.state.activeTab === 0) {
               <IconButton name="share" />
             </CardMenu>
           </Card>
-        </div>
+        </motion.div>
     ); 
 } else if (this.state.activeTab === 2) {
     return (
-        <div className="projects-grid">
+        <motion.div
+        initial={{opacity:0}}
+        animate={{opacity:1}}
+        exit={{opacity:0}} className="projects-grid">
         {/* Project 1 */}
         <Card shadow={5} style={{minWidth: '450', margin: '50px'}}>
           <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://uploaddeimagens.com.br/images/002/712/678/full/reactnode.png?1592415940) center / cover' }} >React + NodeJS Project #1</CardTitle>
@@ -163,11 +173,14 @@ if (this.state.activeTab === 0) {
             <IconButton name="share" />
           </CardMenu>
         </Card>
-      </div>
+      </motion.div>
     );
 } else if (this.state.activeTab === 3) {
     return (
-        <div className="projects-grid">
+        <motion.div
+        initial={{opacity:0}}
+        animate={{opacity:1}}
+        exit={{opacity:0}} className="projects-grid">
         {/* Project 1 */}
         <Card shadow={5} style={{minWidth: '450', margin: '50px'}}>
           <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://uploaddeimagens.com.br/images/002/712/686/full/expressnodereact.png?1592416297) center / cover' }} >React + NodeJS + Express Project #1</CardTitle>
@@ -215,11 +228,14 @@ if (this.state.activeTab === 0) {
             <IconButton name="share" />
           </CardMenu>
         </Card>
-      </div>
+      </motion.div>
     );
 } else if (this.state.activeTab === 4) {
     return (
-        <div className="projects-grid">
+        <motion.div
+        initial={{opacity:0}}
+        animate={{opacity:1}}
+        exit={{opacity:0}} className="projects-grid">
         {/* Project 1 */}
         <Card shadow={5} style={{minWidth: '450', margin: '50px'}}>
           <CardTitle style={{color: '#000', height: '176px', background: 'url(https://uploaddeimagens.com.br/images/002/712/692/full/mern.png?1592416441) center / cover' }} >React + NodeJS + Express + MongoDB Project #1</CardTitle>
@@ -267,7 +283,7 @@ if (this.state.activeTab === 0) {
             <IconButton name="share" />
           </CardMenu>
         </Card>
-      </div>
+      </motion.div>
     );
 }
 
@@ -278,7 +294,10 @@ if (this.state.activeTab === 0) {
 
 render() {
     return (
-        <div className="category-tabs">
+        <motion.div
+        initial={{opacity:0}}
+        animate={{opacity:1}}
+        exit={{opacity:0}} className="category-tabs">
             <Tabs activeTab={this.state.activeTab} onChange={ (tabId) => this.setState({activeTab: tabId}) } ripple>
                 <Tab>HTML/CSS + JavaScript</Tab>
                 <Tab>ReactJS</Tab>
@@ -294,7 +313,7 @@ render() {
                     </Cell>
                 </Grid>
             </section>
-        </div>
+        </motion.div>
     );
 }
 }
