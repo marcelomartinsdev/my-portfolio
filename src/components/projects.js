@@ -299,11 +299,11 @@ render() {
         animate={{opacity:1}}
         exit={{opacity:0}} className="category-tabs">
             <Tabs activeTab={this.state.activeTab} onChange={ (tabId) => this.setState({activeTab: tabId}) } ripple>
-                <Tab>HTML/CSS + JavaScript</Tab>
-                <Tab>ReactJS</Tab>
-                <Tab>ReactJS + NodeJS</Tab>
-                <Tab>React + NodeJS + Express</Tab>
-                <Tab>React + NodeJS + Express + MongoDB</Tab>
+                <Tab style={{fontFamily:'Oxygen', background:'rgb(0,0,0,.1)', borderRadius:'5px'}}>HTML/CSS + JavaScript</Tab>
+                <Tab style={{fontFamily:'Oxygen', background:'rgb(0,0,0,.1)', borderRadius:'5px'}}>ReactJS</Tab>
+                <Tab style={{fontFamily:'Oxygen', background:'rgb(0,0,0,.1)', borderRadius:'5px'}}>ReactJS + NodeJS</Tab>
+                <Tab style={{fontFamily:'Oxygen', background:'rgb(0,0,0,.1)', borderRadius:'5px'}}>React + NodeJS + Express</Tab>
+                <Tab style={{fontFamily:'Oxygen', background:'rgb(0,0,0,.1)', borderRadius:'5px'}}>React + NodeJS + Express + MongoDB</Tab>
             </Tabs>
 
             <section className="projects-grid">

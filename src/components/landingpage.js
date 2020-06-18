@@ -11,7 +11,7 @@ class Landing extends Component {
             style={{width: '100%', margin: 'auto'}}>
                 <Grid className="landing-grid">
                     <Cell col={12}>
-                        <img src="https://uploaddeimagens.com.br/images/002/712/134/full/foto_perfil.jpg?1592401900"
+                        <img src="https://uploaddeimagens.com.br/images/002/712/198/full/WhatsApp_Image_2020-06-17_at_11.11.03.jpeg?1592403157"
                         alt="avatar"
                         className="avatar-img"
                         style={{opacity:.8}}
@@ -21,7 +21,7 @@ class Landing extends Component {
 
                         <hr />
                         
-                        <p>HTML/CSS | Bootstrap | React | React Native | NodeJS | Express | MongoDB</p>
+                        <p style={{fontFamily: 'Oxygen', fontWeight:'bold', fontSize:'18px'}}>HTML/CSS | Bootstrap | React | React Native | NodeJS | Express | MongoDB</p>
                         
                         <div className="social-links">
 

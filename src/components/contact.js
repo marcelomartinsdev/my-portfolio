@@ -1,13 +1,12 @@
 import React, {Component} from 'react';
 import { Grid, Cell, List, ListItem, ListItemContent } from 'react-mdl';
 import { motion } from 'framer-motion';
-import { Link } from 'react-router-dom';
 
 class Contact extends Component {
     render() {
         return (
             
-            <motion.div
+        <motion.div
             initial={{opacity:0}}
             animate={{opacity:1}}
             exit={{opacity:0}}
@@ -58,7 +57,7 @@ class Contact extends Component {
                             <ListItem>
                                 <ListItemContent style={{fontSize:'25px'}}>
                                 <i  className="fa fa-linkedin" aria-hidden="true" />
-                                <a style={{color:'black', textDecoration:'none', background:'rgba(0,0,0,.2)', borderRadius:'10px', fontSize:'30px'}} href="https://linkedin.com/in/marcelomartinsdev">Linkedin.com/in/marcelo-martins-moreira/</a>    
+                                <a style={{color:'black', textDecoration:'none', background:'rgba(0,0,0,.2)', borderRadius:'10px', fontSize:'30px'}} href="https://www.linkedin.com/in/marcelo-martins-moreira/">Linkedin.com/in/marcelo-martins-moreira/</a>    
                                 </ListItemContent>
                             </ListItem>
                             
