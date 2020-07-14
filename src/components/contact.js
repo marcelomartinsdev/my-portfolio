@@ -37,27 +37,30 @@ class Contact extends Component {
                         <div className="contact-list">
                         <List>
                             <ListItem>
-                                <ListItemContent style={{fontSize:'25px'}}>
-                                <i className="fa fa-phone" aria-hidden="true" />
-                                    28 99986-4410
+                                <ListItemContent style={{fontSize:'25px', justifyContent:'center'}}>
+                                <i className="fa fa-phone" aria-hidden="true" style={{color:'yellow'}}/>
+                                28 99986-4410
                                 </ListItemContent>
                             </ListItem>
                             <ListItem>
-                                <ListItemContent style={{fontSize:'25px'}}>
-                                <i className="fa fa-instagram" aria-hidden="true" />
-                                <a style={{color:'black', textDecoration:'none', background:'rgba(0,0,0,.2)', borderRadius:'10px', fontSize:'30px'}} href="https://instagram.com/marcelomartt">@Marcelomartt</a>
+                                <ListItemContent style={{fontSize:'25px', justifyContent:'center'}}>
+                                <a href="https://instagram.com/marcelomartt">
+                                <i className="fa fa-instagram" aria-hidden="true" style={{color:'yellow'}}/>
+                                </a>
                                 </ListItemContent>
                             </ListItem>
                             <ListItem>
-                                <ListItemContent style={{fontSize:'25px'}}>
-                                <i  className="fa fa-github" aria-hidden="true" />
-                                <a style={{color:'black', textDecoration:'none', background:'rgba(0,0,0,.2)', borderRadius:'10px', fontSize:'30px'}} href="https://github.com/marcelomartinsdev">Github.com/marcelomartinsdev</a>    
+                                <ListItemContent style={{fontSize:'25px', justifyContent:'center'}}>
+                                <a href="https://github.com/marcelomartinsdev">
+                                <i  className="fa fa-github" aria-hidden="true" style={{color:'yellow'}}/>
+                                </a>    
                                 </ListItemContent>
                             </ListItem>
                             <ListItem>
-                                <ListItemContent style={{fontSize:'25px'}}>
-                                <i  className="fa fa-linkedin" aria-hidden="true" />
-                                <a style={{color:'black', textDecoration:'none', background:'rgba(0,0,0,.2)', borderRadius:'10px', fontSize:'30px'}} href="https://www.linkedin.com/in/marcelo-martins-moreira/">Linkedin.com/in/marcelo-martins-moreira/</a>    
+                                <ListItemContent style={{fontSize:'25px', justifyContent:'center'}}>
+                                <a href="https://www.linkedin.com/in/marcelo-martins-moreira/">
+                                <i  className="fa fa-linkedin" aria-hidden="true" style={{color:'yellow'}}/>    
+                                </a>    
                                 </ListItemContent>
                             </ListItem>
                             

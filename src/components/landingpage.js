@@ -14,7 +14,7 @@ class Landing extends Component {
                         <img src="https://uploaddeimagens.com.br/images/002/712/198/full/WhatsApp_Image_2020-06-17_at_11.11.03.jpeg?1592403157"
                         alt="avatar"
                         className="avatar-img"
-                        style={{opacity:.8}}
+                        style={{}}
                         />   
                     <div className="banner-text">
                         <h1>Junior Web Developer</h1>
@@ -27,23 +27,23 @@ class Landing extends Component {
 
                             {/* Linkedin*/}
                             <a href="https://www.linkedin.com/in/marcelo-martins-moreira" rel="noopener noreferrer" target="_blank" >
-                                <i className="fa fa-linkedin-square" aria-hidden="true" />
+                                <i className="fa fa-linkedin-square fa-spin" aria-hidden="true" />
                             </a>
                             {/* Github*/}
                             <a href="https://github.com/marcelomartinsdev" rel="noopener noreferrer" target="_blank" >
-                                <i className="fa fa-github" aria-hidden="true" />
+                                <i className="fa fa-github fa-pulse" aria-hidden="true" />
                             </a>
                             {/* Instagram*/}
                             <a href="https://instagram.com/marcelomartt" rel="noopener noreferrer" target="_blank" >
-                                <i className="fa fa-instagram" aria-hidden="true" />
+                                <i className="fa fa-instagram fa-spin" aria-hidden="true" />
                             </a>
                             {/* FreeCodeCamp*/}
                             <a href="https://www.freecodecamp.org/marcelomartinsdev" rel="noopener noreferrer" target="_blank" >
-                                <i className="fa fa-free-code-camp" aria-hidden="true" />
+                                <i className="fa fa-free-code-camp fa-pulse" aria-hidden="true" />
                             </a>
                             {/* Youtube*/}
                             <a href="https://www.youtube.com/channel/UCSVmEnMawXwf32DzX_OrUFw?view_as=subscriber" rel="noopener noreferrer" target="_blank" >
-                                <i className="fa fa-youtube-square" aria-hidden="true" />
+                                <i className="fa fa-youtube-square fa-spin" aria-hidden="true" />
                             </a>
                         
 

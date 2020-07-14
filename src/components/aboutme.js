@@ -21,15 +21,17 @@ class About extends Component {
                         style={{height:'300px', borderRadius:'5px'}}
                         />
                     </div>
-                    <h2 style={{paddingTop:'2em', fontFamily:'Oxygen', color:'rgb(0,0,0)'}}>Marcelo Martins</h2>
-                    <h4 style={{color:'grey'}}>Programmer</h4>
+                    <div className="left-botton-contact">
+                    <h2 style={{paddingTop:'2em', fontFamily:'Oxygen', color:'yellow'}}>Marcelo Martins</h2>
+                    <h4 style={{color:'#000'}}>Programmer</h4>
                     <hr style={{borderTop:'3px solid #3F51B5', width:'85%'}}/>
-                    <p style={{width:'80%', fontFamily:'Oxygen'}}>My first contact with Technology and Computing was with Games in childhood, going to Lan House to play all day, the love for games continued and after wrong decisions I came across something that I did not identify myself and decided to transfer to Computer Science and become a Developer!
+                    <p style={{width:'80%', fontFamily:'Oxygen',color:"#ffff"}}>My first contact with Technology and Computing was with Games in childhood, going to Lan House to play all day, the love for games continued and after wrong decisions I came across something that I did not identify myself and decided to transfer to Computer Science and become a Developer!
                     </p>
                     <hr style={{borderTop:'3px solid #3F51B5', width:'85%'}}/>
                     <h5>Adress</h5>
-                    <p>Praia da Costa, Vila Velha - ES, Brazil, 29101-250</p>
+                    <p style={{color:'#fff'}}>Praia da Costa, Vila Velha - ES, Brazil, 29101-250</p>
                     <hr style={{borderTop:'3px solid #3F51B5', width:'85%'}}/>
+                    </div>
                 </Cell>
                 
                 <Cell col={8} className="about-right-col">

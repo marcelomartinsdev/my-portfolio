@@ -7,7 +7,7 @@ import Main from './components/main';
 class App extends Component {
   render () {
     return (
-      <div style={{height: '300px', position: 'relative'}}>
+      <div>
       <Layout style={{background:"https://uploaddeimagens.com.br/images/002/711/899/full/sea-3652697_1920.jpg?1592397932"}}>
           <Header transparent title={<Link style={{textDecoration: 'none', color:'rgb(0,0,0,.7)'}} to="/">Marcelo Martins</Link>} scroll>
               <Navigation>

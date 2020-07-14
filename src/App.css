@@ -6,8 +6,7 @@ body {
 .landing-grid {
   background: url("https://uploaddeimagens.com.br/images/002/711/899/full/sea-3652697_1920.jpg?1592397932") center / cover
   ;
-  text-align: center;
-  position: fixed;
+  text-align: center; 
   top: 10;
   left: 0;
   width: 100%;
@@ -71,7 +70,6 @@ body {
 
 .contact-body {
   margin-top: 50px;
-  position: fixed;
   width: 100%;
   height: 100%;
   justify-content: center;
@@ -108,20 +106,26 @@ body {
   
 }
 
+.left-botton-contact {
+  background-color: rgb(0,0,0,.3);
+  padding-left: 25px;
+  padding-bottom: 20px;
+  border-radius: 5px  ;
+}
+
 /*Contact Page*/
 
 /*About Page*/
 
 .about-right-col {
   background-color: rgb(0,0,0,.3);
-  color: black;
+  color: #ffffff;
   border-radius: 5px;
   padding: 2em;
 }
 
 .about-body {
   margin-top: 30px;
-  position: fixed;
   width: 100%;
   height: 100%;
   justify-content: center;
